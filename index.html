@@ -1,426 +1,537 @@
 <!DOCTYPE html>
 <html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Portfolio - Nishant Gaurav</title>
+      <!-- Favicon link -->
+      <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+      <!-- CSS -->
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/skills/skill-1/assets/css/skill-1.css">
+   </head>
+   <body>
+      <div class="container">
+         <!-- Header Starts -->
+         <header>
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top custom-header" id="themeToggle">
+               <a class="navbar-brand d-flex align-items-center" href="#thispage">
+               <img src="./assets/img/logo_primary.png" alt="Logo" class="header-logo">
+               <span class="ml-2 font-weight-bold">Nishant Gaurav</span>
+               </a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item active">
+                        <a class="nav-link fw-bold" href="#projects">Projects</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a class="nav-link fw-bold" href="#skills">Skills</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a class="nav-link fw-bold" href="#about">About</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a class="nav-link fw-bold" href="#contact">Contact</a>
+                     </li>
+                  </ul>
+                  <!--  DARK MODE SWITCH -->
+                  <label class="theme-switch ml-3">
+                  <input type="checkbox" id="themeToggleBtn">
+                  <span class="slider"></span>
+                  </label>
+               </div>
+            </nav>
+         </header>
+      </div>
+      <!-- About Section -->
+      <section id="about" class="about py-4" style="background-color: #ffffff; margin-top: 70px;">
+         <div class="container">
+            <div class="row align-items-center">
+               <!-- Left Column -->
+               <div class="col-md-5 text-center mt-4 mt-md-0">
+                  <div class="about_img--wrapper">
+                     <img src="./assets/img/profile_photo.jpeg" 
+                        alt="profile_image"
+                        class="home-img"
+                        style="max-width: 250px; border-radius: 15px;">
+                  </div>
+               </div>
+               <!-- Right Column -->
+               <div class="col-md-7">
+                  <div class="about-content">
+                     <!-- <span class="about-small">Hello👋🏻</span> -->
+                     <img src="./assets/img/cat.gif" alt="Computer man" style="height:65px;">
+                     <h1 class="about-title">
+                        <span>I'm</span> Nishant Gaurav <br />
+                        an <span>Aspiring Software Engineer</span>
+                     </h1>
+                     <p class="about-description">
+                        I'm a third-year <b>Computer Science student</b> at LNCT Bhopal, passionate about
+                        building efficient systems and solving real-world problems through code.
+                        I’ve solved <b>300+ DSA problems</b>, which has helped me strengthen my
+                        logical thinking and algorithmic design skills. I’m proficient in <b>C, C++, and Python</b>, and comfortable working with <b>JavaScript (Vanilla)</b>, <b>HTML</b>, and <b>CSS</b> to create functional and visually clean projects. My technical learning also spans across
+                        <b>Operating Systems</b>, <b>DBMS</b>, and <b>Linux</b>, giving me a deeper
+                        understanding of how systems work internally.
+                     </p>
+                     <p class="about-description">
+                        I work with <b>SQL</b> and <b>MongoDB</b> for data management and use
+                        <b>Git & GitHub</b> for version control and collaboration.
+                        As a <b>Microsoft Learn Student Ambassador</b>, I’ve organized community
+                        events, explored cloud technologies, and helped peers grow in tech.
+                     </p>
+                     <p class="about-description">
+                        Driven by curiosity and persistence, I strive to learn, build, and create
+                        solutions that make an impact — one line of code at a time.
+                     </p>
+                     <div class="home-btns">
+                        <a href="https://drive.google.com/drive/u/0/folders/1Xo3nevFBV423NZTZ6XY7QaaPpDlqcpxF" 
+                           target="_blank" 
+                           class="btn download-btn">
+                        View My Resume
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- About Section Ends Here-->
+      <!-- Projects Section -->
+      <section id="projects" class="py-5" style="background-color: #f4f5f7;">
+         <div class="container">
+            <h2 class="text-uppercase mb-4">Projects</h2>
+            <div class="row">
+               <!-- Project Card 1 -->
+               <div class="col-md-6 col-lg-4 mb-4">
+                  <a href="#" target="_blank" class="project-link">
+                     <div class="project-card p-4 h-100">
+                        <h5 class="project-name fw-bold text-white">My Portfolio</h5>
+                        <p class="tech-used" style="font-weight: 650;">HTML, CSS, Bootstrap</p>
+                        <p class="project-description">
+                           Developed My-Portfolio using the HTML, CSS, and Bootstrap5
+                        </p>
+                     </div>
+                  </a>
+               </div>
+               <!-- Project Card 2 -->
+               <div class="col-md-6 col-lg-4 mb-4">
+                  <a href="#" target="_blank" class="project-link">
+                     <div class="project-card p-4 h-100">
+                        <h5 class="text-white">Jarvis</h5>
+                        <p class="tech-used" style="font-weight: 650;">Python, Requests, API's, AI's</p>
+                        <p class="project-description">
+                           Personal Assistant that can perform unlimited tasks using Python, AI, API's.
+                        </p>
+                     </div>
+                  </a>
+               </div>
+               <!-- Project Card 3 -->
+               <div class="col-md-6 col-lg-4 mb-4">
+                  <a href="https://github.com/nishant05gaurav/Projects-/blob/main/C%2B%2B/BookShopManagment.cpp" target="_blank" class="project-link">
+                     <div class="project-card p-4 h-100">
+                        <h5 class="text-white">Book Shop Management System</h5>
+                        <p class="tech-used" style="font-weight: 650;">C++, OOPs</p>
+                        <p class="project-description">
+                           Designed and Implemented a BookShop Managemenet System using Object-Oriented programming principles.
+                        </p>
+                     </div>
+                  </a>
+               </div>
+               <!-- Project Card 4 -->
+               <div class="col-md-6 col-lg-4 mb-4">
+                  <a href="https://github.com/nishant05gaurav/Projects-/blob/main/C%2B%2B/SnakeWaterGun.cpp" target="_blank" class="project-link">
+                     <div class="project-card p-4 h-100">
+                        <h5 class="text-white">Tic Tac Toe Game</h5>
+                        <p class="tech-used" style="font-weight: 650;">C Language, Programming Fundamentals</p>
+                        <p class="project-description">
+                           Console-based game in C++ implementing advanced Object-Oriented concepts and data structures for optimized gameplay.
+                        </p>
+                     </div>
+                  </a>
+               </div>
+               <!-- Project Card 5 -->
+               <div class="col-md-6 col-lg-4 mb-4">
+                  <a href="https://github.com/nishant05gaurav/Projects-/blob/main/C/To_Do.c" target="_blank" class="project-link">
+                     <div class="project-card p-4 h-100">
+                        <h5 class="text-white">To Do Application</h5>
+                        <p class="tech-used" style="font-weight: 650;">C Language, Programming Fundamentals</p>
+                        <p class="project-description">
+                           Lightweight console-based Task Management Tool utlilizing user-defined functions and switch case for seamless user experience.
+                        </p>
+                     </div>
+                  </a>
+               </div>
+               <!-- Project Card 6 -->
+               <div class="col-md-6 col-lg-4 mb-4">
+                  <a href="https://github.com/nishant05gaurav/Web-Dev-Projects-/blob/main/Technical%20Documentation/index.html" target="_blank" class="project-link">
+                     <div class="project-card p-4 h-100">
+                        <h5 class="text-white">Technical Documentation</h5>
+                        <p class="tech-used" style="font-weight: 650;">HTML, CSS</p>
+                        <p class="project-description">
+                           Authored technical documentation for c++ programming, focusing on clear content and structure and responsive UI.
+                        </p>
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </div>
+         </div>
+      </section>
+      <!-- Project Ends Here -->
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio - Nishant Gaurav</title>
-
-  <!-- Favicon link -->
-  <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
-
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/skills/skill-1/assets/css/skill-1.css">
-
-
-</head>
-
-<body>
-
+<section id="skills" class="py-5">
   <div class="container">
 
-    <!-- Header Starts -->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="themeToggle">
-        <a class="navbar-brand d-flex align-items-center" href="#thispage">
-          <img src="./assets/img/logo_primary.png" alt="Logo" class="header-logo">
-          <span class="ml-2 font-weight-bold">Nishant Gaurav</span>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <h2 class="section-title mb-5">SKILLS</h2>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"> <a class="nav-link fw-bold" href="#projects"> Projects </a> </li>
-            <li class="nav-item active"> <a class="nav-link fw-bold " href="#skills"> Skills </a> </li>
-            <li class="nav-item active"> <a class="nav-link fw-bold" href="#about"> About </a> </li>
-            <li class="nav-item active"> <a class="nav-link fw-bold" href="#contact"> Contact </a> </li>
+    <div class="row">
+
+      <!-- LEFT COLUMN -->
+      <div class="col-md-6">
+
+        <p class="skill-title">C++</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width:85%"></div>
         </div>
-      </nav>
-    </header>
-  </div>
 
-  <!-- About Section -->
-<section id="about" class="about py-4" style="background-color: #ffffff; margin-top: 70px;">
-  <div class="container">
-    <div class="row align-items-center">
-
-      <!-- Left Column -->
-      <div class="col-md-5 text-center mt-4 mt-md-0">
-        <div class="about_img--wrapper">
-          <img src="./assets/img/profile_photo.jpeg" 
-               alt="profile_image"
-               class="home-img"
-               style="max-width: 250px; border-radius: 15px;">
+        <p class="skill-title mt-3">Object-Oriented Programming (OOPs)</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width:82%"></div>
         </div>
+
+        <p class="skill-title mt-3">Data Structures & Algorithms</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width:80%"></div>
+        </div>
+
+        <p class="skill-title mt-3">Python</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width:75%"></div>
+        </div>
+
+        <p class="skill-title mt-3">NumPy</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width:70%"></div>
+        </div>
+
+        <p class="skill-title mt-3">Pandas</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width:75%"></div>
+        </div>
+
+        <p class="skill-title mt-3">Matplotlib</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width:65%"></div>
+        </div>
+
+        <p class="skill-title mt-3">Seaborn</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width:60%"></div>
+        </div>
+
+        <p class="skill-title mt-3">Problem Solving</p>
+<div class="skill-bar">
+  <div class="skill-fill" style="width:85%"></div>
+</div>
+
       </div>
 
-      <!-- Right Column -->
-      <div class="col-md-7">
-        <div class="about-content">
-          <!-- <span class="about-small">Hello👋🏻</span> -->
-           <img src="./assets/img/cat.gif" alt="Computer man" style="height:65px;">
-          <h1 class="about-title">
-            <span>I'm</span> Nishant Gaurav <br />
-            an <span>Aspiring Software Engineer</span>
-          </h1>
+      <!-- RIGHT COLUMN -->
+      <div class="col-md-6">
 
-          <p class="about-description">
-            I'm a third-year <b>Computer Science student</b> at LNCT Bhopal, passionate about
-            building efficient systems and solving real-world problems through code.
-            I’ve solved <b>300+ DSA problems</b>, which has helped me strengthen my
-            logical thinking and algorithmic design skills. I’m proficient in <b>C, C++, and Python</b>, and comfortable working with <b>JavaScript (Vanilla)</b>, <b>HTML</b>, and <b>CSS</b> to create functional and visually clean projects. My technical learning also spans across
-            <b>Operating Systems</b>, <b>DBMS</b>, and <b>Linux</b>, giving me a deeper
-            understanding of how systems work internally.
-          </p>
-
-          <p class="about-description">
-            I work with <b>SQL</b> and <b>MongoDB</b> for data management and use
-            <b>Git & GitHub</b> for version control and collaboration.
-            As a <b>Microsoft Learn Student Ambassador</b>, I’ve organized community
-            events, explored cloud technologies, and helped peers grow in tech.
-          </p>
-
-          <p class="about-description">
-            Driven by curiosity and persistence, I strive to learn, build, and create
-            solutions that make an impact — one line of code at a time.
-          </p>
-
-          <div class="home-btns">
-            <a href="https://drive.google.com/drive/u/0/folders/1Xo3nevFBV423NZTZ6XY7QaaPpDlqcpxF" 
-               target="_blank" 
-               class="btn download-btn">
-               View My Resume
-            </a>
-          </div>
+        <p class="skill-title">JavaScript (Vanilla)</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width:70%"></div>
         </div>
+
+        <p class="skill-title mt-3">API Handling (REST APIs)</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width:72%"></div>
+        </div>
+
+        <p class="skill-title mt-3">Git & GitHub</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width:80%"></div>
+        </div>
+
+        <p class="skill-title mt-3">Linux</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width:68%"></div>
+        </div>
+
+        <p class="skill-title mt-3">Operating Systems</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width:85%"></div>
+        </div>
+
+        <p class="skill-title mt-3">Computer Networks</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width:75%"></div>
+        </div>
+
+        <p class="skill-title mt-3">Database Management Systems</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width:80%"></div>
+        </div>
+
+        <p class="skill-title mt-3">Databases: SQL, MySQL, MongoDB</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width:80%"></div>
+        </div>
+
+        <p class="skill-title mt-3">HTML, CSS, Bootstrap</p>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width:78%"></div>
+        </div>
+
       </div>
 
     </div>
   </div>
 </section>
-  <!-- About Section Ends Here-->
 
-  <!-- Projects Section -->
-  <section id="projects" class="py-5" style="background-color: #f4f5f7;">
-    <div class="container">
-      <h2 class="text-uppercase mb-4">Projects</h2>
 
-      <div class="row">
-        <!-- Project Card 1 -->
-        <div class="col-md-6 col-lg-4 mb-4">
-          <a href="#" target="_blank" class="project-link">
-            <div class="project-card p-4 h-100">
-              <h5 class="project-name fw-bold text-white">My Portfolio</h5>
-              <p class="tech-used" style="font-weight: 650;">HTML, CSS, Bootstrap</p>
-              <p class="project-description">
-                Developed My-Portfolio using the HTML, CSS, and Bootstrap5
-              </p>
+      <!-- Achievements & Certifications Section -->
+      <section id="achievements" class="py-5" style="background-color: #f4f5f7;">
+         <div class="container">
+            <!-- Section Heading -->
+            <h2 class="text-uppercase text-center mb-5">
+               Achievements & Certifications
+            </h2>
+            <div class="row">
+               <!-- Card 1 -->
+               <div class="col-md-6 col-lg-4 mb-4">
+                  <div class="achievement-card p-3 h-100">
+                     <div class="achievement-img-wrapper">
+                        <img src="assets/img/certificates/ambassador.jpg"
+                           alt="Microsoft Learn Student Ambassador"
+                           class="achievement-img">
+                     </div>
+                     <h5 class="mt-3">Microsoft Learn Student Ambassador</h5>
+                     <p class="issuer">Microsoft</p>
+                     <p class="description">
+                        Recognized for leading technical communities, organizing events,
+                        and promoting cloud & developer technologies.
+                     </p>
+                  </div>
+               </div>
+               <!-- Card 2 -->
+               <div class="col-md-6 col-lg-4 mb-4">
+                  <div class="achievement-card p-3 h-100">
+                     <div class="achievement-img-wrapper">
+                        <img src="assets/img/certificates/cloud-event.jpg"
+                           alt="Cloud Skills Challenge"
+                           class="achievement-img">
+                     </div>
+                     <h5 class="mt-3">Cloud Skills Challenge Event Host</h5>
+                     <p class="issuer">Microsoft Learn</p>
+                     <p class="description">
+                        Hosted cloud learning events and enabled participants to explore
+                        Azure cloud technologies.
+                     </p>
+                  </div>
+               </div>
+               <!-- Card 3 -->
+               <div class="col-md-6 col-lg-4 mb-4">
+                  <div class="achievement-card p-3 h-100">
+                     <div class="achievement-img-wrapper">
+                        <img src="assets/img/certificates/az900.jpg"
+                           alt="AZ-900"
+                           class="achievement-img">
+                     </div>
+                     <h5 class="mt-3">AZ-900 Azure Fundamentals</h5>
+                     <p class="issuer">Microsoft</p>
+                     <p class="description">
+                        Demonstrates foundational knowledge of cloud concepts, Azure
+                        services, pricing, security, and governance.
+                     </p>
+                  </div>
+               </div>
+               <!-- Card 4 -->
+               <div class="col-md-6 col-lg-4 mb-4">
+                  <div class="achievement-card p-3 h-100">
+                     <div class="achievement-img-wrapper">
+                        <img src="assets/img/certificates/aws-data.jpg"
+                           alt="AWS Data Engineering"
+                           class="achievement-img">
+                     </div>
+                     <h5 class="mt-3">AWS Graduate – Data Engineering</h5>
+                     <p class="issuer">Amazon Web Services</p>
+                     <p class="description">
+                        Learned data pipelines, ETL workflows, storage solutions, and
+                        scalable cloud data architectures.
+                     </p>
+                  </div>
+               </div>
+               <!-- Card 5 -->
+               <div class="col-md-6 col-lg-4 mb-4">
+                  <div class="achievement-card p-3 h-100">
+                     <div class="achievement-img-wrapper">
+                        <img src="assets/img/certificates/aws-ml.jpg"
+                           alt="AWS ML Foundations"
+                           class="achievement-img">
+                     </div>
+                     <h5 class="mt-3">AWS Machine Learning Foundations</h5>
+                     <p class="issuer">Amazon Web Services</p>
+                     <p class="description">
+                        Covers ML concepts, model training basics, and real-world AI
+                        application workflows on AWS.
+                     </p>
+                  </div>
+               </div>
             </div>
-          </a>
-        </div>
-
-        <!-- Project Card 2 -->
-        <div class="col-md-6 col-lg-4 mb-4">
-          <a href="#" target="_blank" class="project-link">
-            <div class="project-card p-4 h-100">
-              <h5 class="text-white">Jarvis</h5>
-              <p class="tech-used" style="font-weight: 650;">Python, Requests, API's, AI's</p>
-              <p class="project-description">
-                Personal Assistant that can perform unlimited tasks using Python, AI, API's.
-              </p>
+         </div>
+      </section>
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section py-4" style="background-color:#ffffff;">
+         <div class="container">
+            <h2 class="text-center text-uppercase mb-5">Contact Me</h2>
+            <!-- Info Cards -->
+            <div class="row justify-content-center mb-5">
+               <!-- Phone Section-->
+               <div class="col-md-4 mb-3">
+                  <a href="https://shorturl.at/kWLs5" target="_blank" class="project-link">
+                     <div class="contact-card d-flex align-items-center p-3 bg-white rounded shadow-sm">
+                        <img src="assets/img/linkedin.png" alt="LinkedIn Icon" class="contact-icon me-3">
+                        <div>
+                           <h5 class="fw-bold mb-1">Visit My LinkedIn</h5>
+                           <p class="text-muted mb-0"></p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <!-- Mail Section -->
+               <div class="col-md-4 mb-3">
+                  <a href="mailto:nishant05gaurav@gmail.com" target="_blank" class="project-link">
+                     <div class="contact-card d-flex align-items-center p-3 bg-white rounded shadow-sm">
+                        <img src="assets/img/mail.png" alt="Email Icon" class="contact-icon me-3">
+                        <div>
+                           <h5 class="fw-bold mb-1">Visit For Enquiry</h5>
+                           <p class="text-muted mb-0"></p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <!-- Address Section -->
+               <div class="col-md-4 mb-3">
+                  <a href="https://shorturl.at/XgXoJ#" target="_blank" class="project-link">
+                     <div class="contact-card d-flex align-items-center p-3 bg-white rounded shadow-sm">
+                        <img src="assets/img/github.png" alt="Location Icon" class="contact-icon me-3">
+                        <div>
+                           <h5 class="fw-bold mb-1">Visit My GitHub</h5>
+                           <p class="text-muted mb-0"></p>
+                        </div>
+                     </div>
+               </div>
             </div>
-          </a>
-        </div>
-
-        <!-- Project Card 3 -->
-        <div class="col-md-6 col-lg-4 mb-4">
-          <a href="https://github.com/nishant05gaurav/Projects-/blob/main/C%2B%2B/BookShopManagment.cpp" target="_blank" class="project-link">
-            <div class="project-card p-4 h-100">
-              <h5 class="text-white">Book Shop Management System</h5>
-              <p class="tech-used" style="font-weight: 650;">C++, OOPs</p>
-              <p class="project-description">
-                Designed and Implemented a BookShop Managemenet System using Object-Oriented programming principles.
-              </p>
-            </div>
-          </a>
-        </div>
-
-        <!-- Project Card 4 -->
-        <div class="col-md-6 col-lg-4 mb-4">
-          <a href="https://github.com/nishant05gaurav/Projects-/blob/main/C%2B%2B/SnakeWaterGun.cpp" target="_blank" class="project-link">
-            <div class="project-card p-4 h-100">
-              <h5 class="text-white">Tic Tac Toe Game</h5>
-              <p class="tech-used" style="font-weight: 650;">C Language, Programming Fundamentals</p>
-              <p class="project-description">
-                Console-based game in C++ implementing advanced Object-Oriented concepts and data structures for optimized gameplay.
-              </p>
-            </div>
-          </a>
-        </div>
-
-        <!-- Project Card 5 -->
-        <div class="col-md-6 col-lg-4 mb-4">
-          <a href="https://github.com/nishant05gaurav/Projects-/blob/main/C/To_Do.c" target="_blank" class="project-link">
-            <div class="project-card p-4 h-100">
-              <h5 class="text-white">To Do Application</h5>
-              <p class="tech-used" style="font-weight: 650;">C Language, Programming Fundamentals</p>
-              <p class="project-description">
-                Lightweight console-based Task Management Tool utlilizing user-defined functions and switch case for seamless user experience.
-              </p>
-            </div>
-          </a>
-        </div>
-
-        <!-- Project Card 6 -->
-        <div class="col-md-6 col-lg-4 mb-4">
-          <a href="https://github.com/nishant05gaurav/Web-Dev-Projects-/blob/main/Technical%20Documentation/index.html" target="_blank" class="project-link">
-            <div class="project-card p-4 h-100">
-              <h5 class="text-white">Technical Documentation</h5>
-              <p class="tech-used" style="font-weight: 650;">HTML, CSS</p>
-              <p class="project-description">
-                Authored technical documentation for c++ programming, focusing on clear content and structure and responsive UI.
-              </p>
-            </div>
-          </a>
-        </div>
-
-      </div>
-
-    </div>
-    </div>
-  </section>
-  <!-- Project Ends Here -->
-
-  <!-- Skills Section -->
-  <section id="skills" class="py-3" style="background-color: #ffffff;">
-    <div class="container">
-      <h2 class="text-uppercase mb-4 text-center">Skills</h2>
-
-      <div class="row justify-content-center">
-        <!-- Left column -->
-        <div class="col-12 col-md-6 mb-4">
-          <div class="card p-4 h-100">
-            <div class="skill-item mb-4">
-              <h5 class="skill-title mb-2">C++</h5>
-              <div class="skill-bar">
-                <div class="skill-fill" style="width:85%;">&nbsp;</div>
-              </div>
-            </div>
-
-            <div class="skill-item mb-4">
-              <h5 class="skill-title mb-2">Data Structures and Algorithm</h5>
-              <div class="skill-bar">
-                <div class="skill-fill" style="width:70%;">&nbsp;</div>
-              </div>
-            </div>
-
-            <div class="skill-item mb-4">
-              <h5 class="skill-title mb-2">Python</h5>
-              <div class="skill-bar">
-                <div class="skill-fill" style="width:65%;">&nbsp;</div>
-              </div>
-            </div>
-
-            <div class="skill-item mb-4">
-              <h5 class="skill-title mb-2">C</h5>
-              <div class="skill-bar">
-                <div class="skill-fill" style="width:90%;">&nbsp;</div>
-              </div>
-            </div>
-
-            <div class="skill-item mb-0">
-              <h5 class="skill-title mb-2">HTML, CSS</h5>
-              <div class="skill-bar">
-                <div class="skill-fill" style="width:78%;">&nbsp;</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Right column -->
-        <div class="col-12 col-md-6 mb-4">
-          <div class="card p-4 h-100">
-            <div class="skill-item mb-4">
-              <h5 class="skill-title mb-2">Git and GitHub</h5>
-              <div class="skill-bar">
-                <div class="skill-fill" style="width:80%;">&nbsp;</div>
-              </div>
-            </div>
-
-            <div class="skill-item mb-4">
-              <h5 class="skill-title mb-2">JavaScript</h5>
-              <div class="skill-bar">
-                <div class="skill-fill" style="width:52%;">&nbsp;</div>
-              </div>
-            </div>
-
-            <div class="skill-item mb-4">
-              <h5 class="skill-title mb-2">Operating Systems</h5>
-              <div class="skill-bar">
-                <div class="skill-fill" style="width:85%;">&nbsp;</div>
-              </div>
-            </div>
-
-            <div class="skill-item mb-4">
-              <h5 class="skill-title mb-2">Database Management Systems</h5>
-              <div class="skill-bar">
-                <div class="skill-fill" style="width:80%;">&nbsp;</div>
-              </div>
-            </div>
-
-            <div class="skill-item mb-0">
-              <h5 class="skill-title mb-2">Databases: SQL, MySQL, MongoDB</h5>
-              <div class="skill-bar">
-                <div class="skill-fill" style="width:78%;">&nbsp;</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> <!-- .row -->
-    </div> <!-- .container -->
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="contact-section py-4" style="background-color:#f4f5f7;">
-    <div class="container">
-      <h2 class="text-center text-uppercase mb-5">Contact Me</h2>
-
-      <!-- Info Cards -->
-      <div class="row justify-content-center mb-5">
-
-        <!-- Phone Section-->
-        <div class="col-md-4 mb-3">
-          <a href="https://shorturl.at/kWLs5" target="_blank" class="project-link">
-            <div class="contact-card d-flex align-items-center p-3 bg-white rounded shadow-sm">
-              <img src="assets/img/linkedin.png" alt="LinkedIn Icon" class="contact-icon me-3">
-              <div>
-                <h5 class="fw-bold mb-1">Visit My LinkedIn</h5>
-                <p class="text-muted mb-0"></p>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <!-- Mail Section -->
-        <div class="col-md-4 mb-3">
-          <a href="mailto:nishant05gaurav@gmail.com" target="_blank" class="project-link">
-            <div class="contact-card d-flex align-items-center p-3 bg-white rounded shadow-sm">
-              <img src="assets/img/mail.png" alt="Email Icon" class="contact-icon me-3">
-              <div>
-                <h5 class="fw-bold mb-1">Visit For Enquiry</h5>
-                <p class="text-muted mb-0"></p>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <!-- Address Section -->
-        <div class="col-md-4 mb-3">
-          <a href="https://shorturl.at/XgXoJ#" target="_blank" class="project-link">
-            <div class="contact-card d-flex align-items-center p-3 bg-white rounded shadow-sm">
-              <img src="assets/img/github.png" alt="Location Icon" class="contact-icon me-3">
-              <div>
-                <h5 class="fw-bold mb-1">Visit My GitHub</h5>
-                <p class="text-muted mb-0"></p>
-              </div>
-            </div>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- Contact Form -->
-    <div class="row justify-content-center">
-      <div class="col-md-8 col-lg-6">
-        <div class="bg-white rounded shadow-sm p-3">
-          <h5 class="fw-bold mb-2 text-center ">Contact Form</h5>
-          <form>
-            <div class="form-group mb-3">
-              <label for="name">Name</label>
-              <input type="text" id="name" class="form-control" placeholder="Your Name" required>
-            </div>
-            <div class="form-group mb-3">
-              <label for="email">Email</label>
-              <input type="email" id="email" class="form-control" placeholder="Your Email" required>
-            </div>
-            <div class="form-group mb-3">
-              <label for="message">Message</label>
-              <textarea id="message" class="form-control" rows="4" placeholder="Write your message..."
-                required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
-          </form>
-        </div>
-      </div>
-    </div>
-
-    </div>
-  </section>
-  <!-- Contact Section Ends -->
-
-  <!-- Footer Starts -->
-  <div class="text-center">
-    <div class="card">
+         </div>
+         <!-- Contact Form -->
+         <div class="row justify-content-center">
+         <div class="col-md-8 col-lg-6">
+         <div class="bg-white rounded shadow-sm p-3">
+         <h5 class="fw-bold mb-2 text-center ">Contact Form</h5>
+         <form>
+         <div class="form-group mb-3">
+         <label for="name">Name</label>
+         <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+         </div>
+         <div class="form-group mb-3">
+         <label for="email">Email</label>
+         <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+         </div>
+         <div class="form-group mb-3">
+         <label for="message">Message</label>
+         <textarea id="message" class="form-control" rows="4" placeholder="Write your message..."
+            required></textarea>
+         </div>
+         <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+         </form>
+         </div>
+         </div>
+         </div>
+         </div>
+      </section>
+      <!-- Contact Section Ends -->
+      <!-- Footer Starts -->
+      <div class="text-center">
+      <div class="card custom-footer">
       <div class="card-body">
-        <p class="card-title">&copy; 2025 Nishant Gaurav | All rights reserved.</p>
-
-        <nav class="navbar navbar-expand-lg navbar-light ">
-          <div class="container-fluid d-flex justify-content-between align-items-center">
-
-            <a class="navbar-brand d-flex align-items-center" href="#">
-              <img src="./assets/img/logo_secondary.png" alt="Logo" class="footer-icon-logo">
-            </a>
-
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-              <ul class="navbar-nav d-flex flex-row gap-1 mb-0">
-                <li class="nav-item">
-                  <a class="nav-link p-0" href="/" target="_blank">
-                    <img src="./assets/img/github.svg" alt="GitHub" class="footer-icon">
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link p-0" href="/" target="_blank">
-                    <img src="./assets/img/twitter.svg" alt="Twitter" class="footer-icon">
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link p-0" href="#" target="_blank">
-                    <img src="./assets/img/gmail.svg" alt="Gmail" class="footer-icon">
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link p-0" href="#" target="_blank">
-                    <img src="./assets/img/linkedin.svg" alt="LinkedIn" class="footer-icon">
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+      <p class="card-title">&copy; 2025 Nishant Gaurav | All rights reserved.</p>
+      <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container-fluid d-flex justify-content-between align-items-center">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="./assets/img/logo_secondary.png" alt="Logo" class="footer-icon-logo">
+      </a>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav d-flex flex-row gap-1 mb-0">
+      <li class="nav-item">
+      <a class="nav-link p-0" href="https://github.com/nishant05gaurav" target="_blank">
+      <img src="./assets/img/github.svg" alt="GitHub" class="footer-icon">
+      </a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link p-0" href="https://x.com/_im_nishant14" target="_blank">
+      <img src="./assets/img/twitter.svg" alt="Twitter" class="footer-icon">
+      </a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link p-0" href="mailto:nishant05gaurav@gmail.com" target="_blank">
+      <img src="./assets/img/gmail.svg" alt="Gmail" class="footer-icon">
+      </a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link p-0" href="https://shorturl.at/kWLs5" target="_blank">
+      <img src="./assets/img/linkedin.svg" alt="LinkedIn" class="footer-icon">
+      </a>
+      </li>
+      </ul>
       </div>
-    </div>
-  </div>
-  <!-- Footer Ends Here -->
-
-  <!-- Required JS for Bootstrap -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-</body>
-
+      </div>
+      </nav>
+      </div>
+      </div>
+      </div>
+      <!-- Footer Ends Here -->
+      <!-- Required JS for Bootstrap -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+         crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+         crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+         crossorigin="anonymous"></script>
+      <script>
+         const toggleBtn = document.getElementById("themeToggleBtn");
+         const body = document.body;
+         
+         /* Load saved theme */
+         if (localStorage.getItem("theme") === "dark") {
+           body.classList.add("dark-mode");
+           toggleBtn.checked = true;
+         }
+         
+         /* Toggle */
+         toggleBtn.addEventListener("change", () => {
+         
+           body.classList.toggle("dark-mode");
+         
+           if (body.classList.contains("dark-mode")) {
+             localStorage.setItem("theme", "dark");
+           } else {
+             localStorage.setItem("theme", "light");
+           }
+         
+         });
+      </script>
+   </body>
 </html>
