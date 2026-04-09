@@ -21,12 +21,12 @@ No dependencies to install. No Node, no npm, no bundler.
 ## Preview
 
 **Live site:** [nishant05gaurav.github.io](https://nishant05gaurav.github.io)
-![Light Mode](/nishant05gaurav.github.io-main/assets/image.png)
+![Light Mode](/assets/image.png)
 
 The portfolio loads with a split-layout About section — profile photo on the left, bio and CTA on the right. The navbar is sticky and collapses on mobile. Flipping the toggle in the top-right switches between light and dark mode, and the preference persists across sessions via `localStorage`.
 
 
-![Dark Mode](/nishant05gaurav.github.io-main/assets/image-1.png)
+![Dark Mode](/assets/image-1.png)
 
 
 ## Problem & Purpose
