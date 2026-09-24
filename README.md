@@ -41,8 +41,6 @@ required.
 
 ![Dark Mode](assets/image-1.png)
 
-> If you keep different screenshot filenames, replace the two image
-> paths above with the actual files in your `assets/img/` folder.
 
 The portfolio uses a dark-first interface with a light-mode option. The
 theme preference is stored using `localStorage`, so the selected mode
