@@ -1,77 +1,265 @@
-# Nishant Gaurav – Portfolio Website
+# Nishant Gaurav -- Portfolio Website
 
-A personal developer portfolio built with vanilla HTML, CSS, and Bootstrap — featuring a dark/light mode toggle, smooth section navigation, skill progress bars, project cards, certifications, and a contact form. Deployed live via GitHub Pages.
+A personal developer portfolio built with **HTML5, CSS3, JavaScript, and
+Bootstrap 5**. It presents my projects, technical skills, articles,
+certifications, community work, and ways to get in touch.
+
+The site uses a dark-first visual identity with a light-mode option,
+responsive layouts, smooth section navigation, project cards, technical
+skill groups, achievement cards, and a simple contact form.
 
 **Live:** [nishant05gaurav.github.io](https://nishant05gaurav.github.io)
 
+
 ## Quick Start
 
-```bash
+``` bash
 git clone https://github.com/nishant05gaurav/nishant05gaurav.github.io.git
+
 cd nishant05gaurav.github.io
 
-# No build step — open directly
+# No build step required
 open index.html
-# or just drag index.html into your browser
 ```
 
-No dependencies to install. No Node, no npm, no bundler.
+You can also open `index.html` directly in your browser.
+
+There is no Node.js setup, npm install, bundler, or build process
+required.
 
 
 ## Preview
 
-**Live site:** [nishant05gaurav.github.io](https://nishant05gaurav.github.io)
-![Light Mode](/assets/image.png)
+**Live site:**
+[nishant05gaurav.github.io](https://nishant05gaurav.github.io)
 
-The portfolio loads with a split-layout About section — profile photo on the left, bio and CTA on the right. The navbar is sticky and collapses on mobile. Flipping the toggle in the top-right switches between light and dark mode, and the preference persists across sessions via `localStorage`.
+### Light Mode
 
+![Light Mode](assets/image.png)
 
-![Dark Mode](/assets/image-1.png)
+### Dark Mode
+
+![Dark Mode](assets/image-1.png)
+
+> If you keep different screenshot filenames, replace the two image
+> paths above with the actual files in your `assets/img/` folder.
+
+The portfolio uses a dark-first interface with a light-mode option. The
+theme preference is stored using `localStorage`, so the selected mode
+can be restored when the site is opened again.
 
 
 ## Problem & Purpose
 
-Most developer portfolios are either overbuilt (React + Tailwind + animations for a static page) or underbuilt (a plain HTML file with no real structure). This one sits in the right place — clean, fast, zero-dependency, deployable in one click via GitHub Pages, and actually representative of frontend skills without hiding them behind a framework.
+I wanted a portfolio that works as more than a collection of links.
 
-Built as a real-world frontend project and a living resume that recruiters and hiring managers can verify directly from the GitHub repo.
+It is designed as a living representation of the things I build, learn,
+and document --- from software projects and core computer science
+concepts to technical writing, data, backend development, APIs,
+automation, and AI-related work.
+
+The site deliberately avoids a large frontend framework because the
+portfolio itself is also a frontend project. The goal is to keep the
+code understandable, lightweight, responsive, and easy to deploy through
+GitHub Pages.
 
 
 ## Highlights
 
-- **Dark mode with persistence** — theme state is stored in `localStorage` and restored on page load. No flash of wrong theme; the script runs before render. Toggle is a pure CSS slider with no JS library.
-- **Zero build tooling** — the entire site is a single `index.html` with `css/style.css` and `JS/main.js`. Loads instantly, works offline, and has nothing to break at deploy time.
-- **Custom skill bar system** — progress bars are built in plain CSS with inline `width` values, not a third-party component. Clean, readable, and fully customizable.
-- **GitHub Pages deployment** — 9 deployments on record, served directly from the `master` branch. No CI pipeline needed; push to deploy.
-- **Responsive layout throughout** — Bootstrap grid handles mobile breakpoints for the project cards, achievement cards, and contact section. The navbar collapses cleanly on small screens.
-- **Semantic structure** — sections use proper HTML5 landmarks (`<header>`, `<section>`, `<footer>`) with anchor IDs, making the nav links and scroll behavior reliable without any JavaScript scroll library.
+-   **Dark-first design with light mode** --- the portfolio starts in
+    dark mode and supports switching between dark and light themes. The
+    selected theme is stored in `localStorage`.
+
+-   **Responsive layout** --- Bootstrap 5 is used alongside custom CSS
+    to keep the navbar, project cards, achievement cards, contact
+    section, and other layouts usable across screen sizes.
+
+-   **Project-focused portfolio** --- the projects section currently
+    presents GhostSpot, NOVA AI Assistant, recLog, Habit Flow Engine,
+    Algorithm Analyzer, and the Portfolio Website.
+
+-   **Technical skills section** --- skills are grouped into Languages,
+    Backend & APIs, Data & AI, Systems & Tools, and Core CS.
+
+-   **Technical writing** --- the Articles section presents writing
+    around development, DSA, Dynamic Programming, and the logic behind
+    the concepts being learned.
+
+-   **Achievements & certifications** --- certificate images are stored
+    locally in `assets/img/certificates/` and displayed directly in the
+    portfolio.
+
+-   **Simple contact flow** --- the contact form uses JavaScript to open
+    the visitor's default email client with the submitted details.
+
+-   **No build tooling** --- the site can be opened directly from
+    `index.html` and deployed as a static GitHub Pages site.
+
+-   **Semantic HTML structure** --- the page is organized using elements
+    such as `<header>`, `<main>`, `<section>`, `<article>`, and
+    `<footer>`.
 
 
 ## Features
 
-- Sticky navbar with smooth anchor navigation and mobile hamburger menu
-- Dark / light mode toggle with `localStorage` persistence
-- About section with profile photo, bio, and resume link
-- Skill progress bars across 18 technologies (split two-column layout)
-- Project cards with tech stack labels and GitHub links
-- Achievements & Certifications section with certificate images (Microsoft, AWS)
-- Contact section with LinkedIn, GitHub, and email cards + a contact form
-- Footer with social icon links
+-   Sticky navigation bar
+-   About / Who I Am section
+-   Dark / light mode toggle
+-   Theme persistence using `localStorage`
+-   Technical Skills section
+-   DEV and Medium navigation links
+-   `log(Nishant)` writing/project identity
+
+
+## Projects
+
+### GhostSpot
+
+A geospatial risk-analysis project that uses spatial and business data
+to study commercial locations and predict closure-risk probabilities
+through a machine-learning workflow.
+
+**Stack:** Python, Flask, PostgreSQL, PostGIS, scikit-learn, Pandas,
+Leaflet.js, REST APIs
+
+[GitHub](https://github.com/nishant05gaurav)
+
+### NOVA AI Assistant
+
+A Python-based assistant exploring speech recognition, AI responses,
+external APIs, and text-to-speech workflows.
+
+**Stack:** Python, Gemini API, SpeechRecognition, PyAudio, pyttsx3, APIs
+
+[GitHub](https://github.com/nishant05gaurav)
+
+### recLog
+
+An automation project that connects a Dev.to publishing workflow with a
+personal portfolio using Python and GitHub Actions.
+
+**Stack:** Python, Dev.to API, GitHub, GitHub Actions, automation, APIs
+
+[GitHub](https://github.com/nishant05gaurav/recLog)
+
+### Habit Flow Engine
+
+A personal software project focused on turning habit-building ideas into
+a structured and trackable workflow.
+
+**Stack:** Python, NumPy, data processing, simulation, workflow logic
+
+[GitHub](https://github.com/nishant05gaurav)
+
+### Algorithm Analyzer
+
+A Python project focused on analysing algorithmic behaviour and making
+problem-solving concepts easier to inspect and understand.
+
+**Stack:** Python, algorithms, data structures, complexity analysis,
+problem solving
+
+[GitHub](https://github.com/nishant05gaurav)
+
+### Portfolio Website
+
+The portfolio itself --- built to present projects, technical skills,
+writing, certifications, and the work behind them.
+
+**Stack:** HTML5, CSS3, JavaScript, Bootstrap 5, Git, GitHub
+
+[GitHub](https://github.com/nishant05gaurav)
+
+
+## Technical Skills
+
+  -----------------------------------------------------------------------
+  Category                            Skills
+  ----------------------------------- -----------------------------------
+  Languages                           C, C++, Python, SQL, JavaScript,
+                                      HTML, CSS
+
+  Backend & APIs                      Flask, REST APIs, PostgreSQL,
+                                      PostGIS, MySQL, MongoDB, JSON, API
+                                      Integration
+
+  Data & AI                           NumPy, Pandas, Matplotlib, Seaborn,
+                                      scikit-learn, Data Analysis,
+                                      Machine Learning, Gemini API
+
+  Systems & Tools                     Linux, Git, GitHub, GitHub Actions,
+                                      Docker, AWS, Azure, Bootstrap
+
+  Core CS                             Data Structures & Algorithms, OOP,
+                                      DBMS, Operating Systems, Computer
+                                      Networks, Problem Solving
+  -----------------------------------------------------------------------
+
+
+## Articles & Writing
+
+The portfolio includes a small selection of technical writing around
+software development and DSA.
+
+Current article entries include:
+
+-   **How I Built My Portfolio Website From Scratch**
+-   **Matrix Chain Multiplication: A New DP Pattern**
+-   **Palindrome Partitioning: The MCM Skeleton**
+-   **Boolean Parenthesization: Counting Instead of Minimising**
+
+The article links in the current JavaScript are intentionally left as
+`#` placeholders until the final DEV/Medium URLs are added.
+
+The portfolio also links to **log(Nishant)** for notes and technical
+writing:
+
+[log(Nishant)](https://nishant05gaurav.github.io/)
+
+
+## Achievements & Certifications
+
+The current portfolio includes:
+
+-   Microsoft Learn Student Ambassador
+-   Cloud Skills Challenge Event Host
+-   AZ-900 Azure Fundamentals
+-   AWS Graduate --- Data Engineering
+-   AWS Machine Learning Foundations
+
+Certificate images are stored here:
+
+``` text
+assets/img/certificates/
+├── ambassador.jpg
+├── cloud-event.jpg
+├── az900.jpg
+├── aws-data.jpg
+└── aws-ml.jpg
+```
 
 
 ## Tech Stack
 
-| Layer | Tools |
-|---|---|
-| Markup | HTML5 |
-| Styling | CSS3, Bootstrap 4 / 5 |
-| Interactivity | Vanilla JavaScript |
-| Deployment | GitHub Pages |
+  Layer           Tools
+  --------------- -------------------------------------------
+  Markup          HTML5
+  Styling         CSS3
+  UI Framework    Bootstrap 5.3.3
+  Interactivity   Vanilla JavaScript
+  Fonts           Inter, JetBrains Mono
+  Theme           CSS variables + JavaScript + localStorage
+  Deployment      GitHub Pages
+
+External resources used by the page include Bootstrap 5.3.3 and Google
+Fonts.
 
 
 ## Project Structure
 
-```
+``` text
 nishant05gaurav.github.io/
+│
 ├── assets/
 │   └── img/
 │       ├── profile_photo.jpeg
@@ -79,49 +267,110 @@ nishant05gaurav.github.io/
 │       ├── logo_secondary.png
 │       ├── cat.gif
 │       ├── favicon.png
-│       └── certificates/          # Achievement card images
+│       └── certificates/
+│           ├── ambassador.jpg
+│           ├── cloud-event.jpg
+│           ├── az900.jpg
+│           ├── aws-data.jpg
+│           └── aws-ml.jpg
+│
 ├── css/
-│   └── style.css                  # All custom styles + dark mode overrides
+│   └── style.css
+│
 ├── JS/
 │   └── main.js
-└── index.html                     # Single-page entry point
+│
+├── index.html
+└── README.md
 ```
 
 
 ## Deployment
 
-Hosted on **GitHub Pages** from the `master` branch.
+The portfolio is designed to be hosted directly on **GitHub Pages**.
 
-Any push to `master` triggers an automatic redeploy — no workflow file needed. The live URL is: `https://nishant05gaurav.github.io`
+Repository:
 
-To deploy your own fork:
-1. Fork the repo
-2. Go to **Settings → Pages**
-3. Set source to `master` branch, `/ (root)`
-4. GitHub assigns a URL at `https://<your-username>.github.io`
+[github.com/nishant05gaurav/nishant05gaurav.github.io](https://github.com/nishant05gaurav/nishant05gaurav.github.io)
+
+For your own GitHub Pages fork:
+
+1.  Fork the repository.
+2.  Open **Settings → Pages**.
+3.  Select the branch containing the website.
+4.  Select `/ (root)` as the folder.
+5.  Save the configuration.
+6.  GitHub Pages will provide the corresponding site URL.
 
 
 ## Customization
 
-To adapt this for your own use, update these areas in `index.html`:
+Most portfolio content can be changed directly in `index.html`.
 
-- **About text** — bio paragraphs and resume link
-- **Skill bars** — change `width` values inline on `.skill-fill` divs
-- **Project cards** — update `href`, project name, tech stack, and description
-- **Achievement cards** — swap images in `assets/img/certificates/` and update text
-- **Contact links** — update LinkedIn, GitHub, and email `href` values
-- **Footer socials** — same links repeated in the footer `<ul>`
+### About
 
-Dark mode colors live in `css/style.css` under the `.dark-mode` class selector.
+Update the biography, current focus, statistics, GitHub link, LinkedIn
+link, and resume link.
+
+### Projects
+
+Update each project card's:
+
+-   Project name
+-   Description
+-   Technology tags
+-   GitHub URL
+
+### Technical Skills
+
+Add or remove skill chips inside the relevant skill group.
+
+### Articles
+
+Update the article titles, descriptions, and the `writingLinks` object
+in `JS/main.js` with the final DEV and Medium URLs.
+
+### Achievements
+
+Replace certificate images inside:
+
+``` text
+assets/img/certificates/
+```
+
+and update the corresponding titles and organizations in `index.html`.
+
+### Contact
+
+Update the LinkedIn, GitHub, email, and `log(Nishant)` links in the
+contact section and footer.
+
+### Theme
+
+Theme colors and layout styles are maintained in:
+
+``` text
+css/style.css
+```
+
+The JavaScript theme logic and contact-form behavior are maintained in:
+
+``` text
+JS/main.js
+```
 
 
 ## License
 
-MIT License: Use it, Fork it, Build on it.
+MIT License --- use it, fork it, build on it.
 
 
 ## Author
 
-Built by [Nishant Gaurav](https://github.com/nishant05gaurav)  
+Built by **Nishant Gaurav**
 
-[GitHub](https://github.com/nishant05gaurav) · [LinkedIn](https://shorturl.at/kWLs5) · [nishant05gaurav@gmail.com](mailto:nishant05gaurav@gmail.com)
+-   [GitHub](https://github.com/nishant05gaurav)
+-   [LinkedIn](https://shorturl.at/kWLs5)
+-   [X](https://x.com/_im_nishant14)
+-   [Email](mailto:nishant05gaurav@gmail.com)
+-   [log(Nishant)](https://nishant05gaurav.github.io/)

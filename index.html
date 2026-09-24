@@ -1,574 +1,876 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Portfolio - Nishant Gaurav</title>
-      <!-- Favicon link -->
-      <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
-      <!-- Bootstrap -->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-      <!-- CSS -->
-      <link rel="stylesheet" href="css/style.css" />
-      <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-      <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/skills/skill-1/assets/css/skill-1.css">
-   </head>
-   <body>
-      <div class="container">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nishant Gaurav — software engineering portfolio, projects, technical writing, certifications and learning notes."
+    />
+    <title>log(Nishant) — Nishant Gaurav</title>
 
-         <!-- Header Starts -->
-         <header>
-            <nav class="navbar navbar-expand-lg navbar-light fixed-top custom-header" id="themeToggle">
-               <a class="navbar-brand d-flex align-items-center" href="#thispage">
-               <img src="./assets/img/logo_primary.png" alt="Logo" class="header-logo">
-               <span class="ml-2 font-weight-bold">Nishant Gaurav</span>
-               </a>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ml-auto">
-                     <li class="nav-item active">
-                        <a class="nav-link fw-bold" href="#about">About</a>
-                     </li>
-                     <li class="nav-item active">
-                        <a class="nav-link fw-bold" href="#skills">Skills</a>
-                     </li>
-                     <li class="nav-item active">
-                        <a class="nav-link fw-bold" href="#projects">Projects</a>
-                     </li>
-                     <li class="nav-item active">
-                        <a class="nav-link fw-bold" href="#achievements">Achievements</a>
-                     </li>
-                     <li class="nav-item active">
-                        <a class="nav-link fw-bold" href="#contact">Contact</a>
-                     </li>
-                  </ul>
-                  <!--  DARK MODE SWITCH -->
-                  <label class="theme-switch ml-3">
-                  <input type="checkbox" id="themeToggleBtn">
-                  <span class="slider"></span>
-                  </label>
-               </div>
-            </nav>
-         </header>
-      </div>
+    <link rel="icon" href="./assets/img/favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-      <!-- About Section -->
-      <section id="about" class="about py-4" style="background-color: #ffffff; margin-top: 70px;">
-         <div class="container">
-            <div class="row align-items-center">
-               <!-- Left Column -->
-               <div class="col-md-5 text-center mt-4 mt-md-0">
-                  <div class="about_img--wrapper">
-                     <img src="./assets/img/profile_photo.jpeg" 
-                        alt="profile_image"
-                        class="home-img"
-                        style="max-width: 550px; border-radius: 15px;">
-                  </div>
-               </div>
-               <!-- Right Column -->
-               <div class="col-md-7">
-                  <div class="about-content">
-                     <!-- <span class="about-small">Hello👋🏻</span> -->
-                     <img src="./assets/img/cat.gif" alt="Computer man" style="height:95px; width: 311px;">
-                     <h1 class="about-title">
-                        <!-- <span>I'm</span> Nishant Gaurav <br />
-                        an <span>Aspiring Software Engineer</span>
-                     </h1>
-                     <p class="about-description">
-                        I'm a third-year <b>Computer Science student</b> at LNCT Bhopal, passionate about
-                        building efficient systems and solving real-world problems through code.
-                        I’ve solved <b>300+ DSA problems</b>, which has helped me strengthen my
-                        logical thinking and algorithmic design skills. I’m proficient in <b>C, C++, and Python</b>, and comfortable working with <b>JavaScript (Vanilla)</b>, <b>HTML</b>, and <b>CSS</b> to create functional and visually clean projects. My technical learning also spans across
-                        <b>Operating Systems</b>, <b>DBMS</b>, and <b>Linux</b>, giving me a deeper
-                        understanding of how systems work internally.
-                     </p>
-                     <p class="about-description">
-                        I work with <b>SQL</b> and <b>MongoDB</b> for data management and use
-                        <b>Git & GitHub</b> for version control and collaboration.
-                        As a <b>Microsoft Learn Student Ambassador</b>, I’ve organized community
-                        events, explored cloud technologies, and helped peers grow in tech.
-                     </p>
-                     <p class="about-description">
-                        Driven by curiosity and persistence, I strive to learn, build, and create
-                        solutions that make an impact — one line of code at a time.
-                     </p> -->
-                     <span>I'm</span> Nishant Gaurav <br />
-                        an <span>Aspiring Software Engineer</span>
-                        </h1>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-                        <p class="about-description">
-                        I’m a third-year <b>Computer Science student</b> at LNCT Bhopal who enjoys building things through code and understanding how systems work internally.
-                        I’ve solved <b>300+ DSA problems</b> and, essentially work with <b>C, C++, and Python</b>, with a strong foundation in <b>Object-Oriented Programming (OOPs)</b> and core programming fundamentals.
-                        </p>
+  <body class="dark-mode">
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a
+            class="navbar-brand d-flex align-items-center gap-2"
+            href="#home"
+            aria-label="Nishant Gaurav home"
+          >
+            <img
+              src="./assets/img/logo_primary.png"
+              alt="Nishant Gaurav logo"
+              class="header-logo"
+            />
+            <span>Nishant Gaurav</span>
+          </a>
 
-                        <p class="about-description">
-                        Recently, I’ve been focusing on <b>Frontend Development</b>, building responsive and user-friendly interfaces using 
-                        <b>HTML5, CSS3, JavaScript (Vanilla),</b> and <b>Bootstrap</b>. I enjoy transforming ideas into real-world UI experiences that are both functional and visually structured.
-                        I also have hands-on experience working with <b>REST APIs</b>, integrating external data and understanding how real-world applications communicate.
-                        </p>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                        <p class="about-description">
-                        On the data side, I’ve worked with <b>NumPy, Pandas, Matplotlib,</b> and <b>Seaborn</b> for data analysis and visualization.
-                        My academic learning spans <b>Operating Systems, DBMS,</b> and <b>Computer Networks</b>, helping me understand how software and communication layers interact.
-                        I work with <b>SQL, MySQL,</b> and <b>MongoDB</b> for databases and use <b>Git & GitHub</b> for version control and collaboration.
-                        </p>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#articles">Articles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#achievements">Achievements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
 
-                        <p class="about-description">
-                        Beyond academics, I serve as a <b>Microsoft Learn Student Ambassador</b>, where I organize technical events, engage with developer communities, and help peers grow in tech.
-                        Driven by curiosity and consistency, I aim to learn, build, and create solutions that make a real impact: one line of code at a time.
-                        </p>
-
-                     <div class="home-btns">
-                        <a href="https://drive.google.com/drive/u/0/folders/1Xo3nevFBV423NZTZ6XY7QaaPpDlqcpxF" 
-                           target="_blank" 
-                           class="btn download-btn">
-                        View My Resume
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- About Section Ends Here-->
-
-      <!-- Projects Section -->
-      <section id="projects" class="py-5" style="background-color: #f4f5f7;">
-         <div class="container">
-            <h2 class="section-title mb-5">PROJECTS</h2>
-            <div class="row">
-               <!-- Project Card 1 -->
-               <div class="col-md-6 col-lg-4 mb-4">
-                  <a href="#" target="_blank" class="project-link">
-                     <div class="project-card p-4 h-100">
-                        <h5 class="project-name fw-bold text-white">My Portfolio</h5>
-                        <p class="tech-used" style="font-weight: 650;">HTML, CSS, Bootstrap</p>
-                        <p class="project-description">
-                           Developed My-Portfolio using the HTML, CSS, and Bootstrap5
-                        </p>
-                     </div>
-                  </a>
-               </div>
-               <!-- Project Card 2 -->
-               <div class="col-md-6 col-lg-4 mb-4">
-                  <a href="#" target="_blank" class="project-link">
-                     <div class="project-card p-4 h-100">
-                        <h5 class="text-white">Jarvis</h5>
-                        <p class="tech-used" style="font-weight: 650;">Python, Requests, API's, AI's</p>
-                        <p class="project-description">
-                           Personal Assistant that can perform unlimited tasks using Python, AI, API's.
-                        </p>
-                     </div>
-                  </a>
-               </div>
-               <!-- Project Card 3 -->
-               <div class="col-md-6 col-lg-4 mb-4">
-                  <a href="https://github.com/nishant05gaurav/Projects-/blob/main/C%2B%2B/BookShopManagment.cpp" target="_blank" class="project-link">
-                     <div class="project-card p-4 h-100">
-                        <h5 class="text-white">Book Shop Management System</h5>
-                        <p class="tech-used" style="font-weight: 650;">C++, OOPs</p>
-                        <p class="project-description">
-                           Designed and Implemented a BookShop Managemenet System using Object-Oriented programming principles.
-                        </p>
-                     </div>
-                  </a>
-               </div>
-               <!-- Project Card 4 -->
-               <div class="col-md-6 col-lg-4 mb-4">
-                  <a href="https://github.com/nishant05gaurav/Projects-/blob/main/C%2B%2B/SnakeWaterGun.cpp" target="_blank" class="project-link">
-                     <div class="project-card p-4 h-100">
-                        <h5 class="text-white">Tic Tac Toe Game</h5>
-                        <p class="tech-used" style="font-weight: 650;">C Language, Programming Fundamentals</p>
-                        <p class="project-description">
-                           Console-based game in C++ implementing advanced Object-Oriented concepts and data structures for optimized gameplay.
-                        </p>
-                     </div>
-                  </a>
-               </div>
-               <!-- Project Card 5 -->
-               <div class="col-md-6 col-lg-4 mb-4">
-                  <a href="https://github.com/nishant05gaurav/Projects-/blob/main/C/To_Do.c" target="_blank" class="project-link">
-                     <div class="project-card p-4 h-100">
-                        <h5 class="text-white">To Do Application</h5>
-                        <p class="tech-used" style="font-weight: 650;">C Language, Programming Fundamentals</p>
-                        <p class="project-description">
-                           Lightweight console-based Task Management Tool utlilizing user-defined functions and switch case for seamless user experience.
-                        </p>
-                     </div>
-                  </a>
-               </div>
-               <!-- Project Card 6 -->
-               <div class="col-md-6 col-lg-4 mb-4">
-                  <a href="https://github.com/nishant05gaurav/Web-Dev-Projects-/blob/main/Technical%20Documentation/index.html" target="_blank" class="project-link">
-                     <div class="project-card p-4 h-100">
-                        <h5 class="text-white">Technical Documentation</h5>
-                        <p class="tech-used" style="font-weight: 650;">HTML, CSS</p>
-                        <p class="project-description">
-                           Authored technical documentation for c++ programming, focusing on clear content and structure and responsive UI.
-                        </p>
-                     </div>
-                  </a>
-               </div>
-            </div>
-         </div>
-         </div>
-      </section>
-      <!-- Project Ends Here -->
-
-      <!-- Skill Section -->
-      <section id="skills" class="py-5">
-         <div class="container">
-
-            <h2 class="section-title mb-5">SKILLS</h2>
-
-            <div class="row">
-
-               <!-- LEFT COLUMN -->
-               <div class="col-md-6">
-
-               <p class="skill-title">C++</p>
-               <div class="skill-bar">
-                  <div class="skill-fill" style="width:85%"></div>
-               </div>
-
-               <p class="skill-title mt-3">Object-Oriented Programming (OOPs)</p>
-               <div class="skill-bar">
-                  <div class="skill-fill" style="width:82%"></div>
-               </div>
-
-               <p class="skill-title mt-3">Data Structures & Algorithms</p>
-               <div class="skill-bar">
-                  <div class="skill-fill" style="width:80%"></div>
-               </div>
-
-               <p class="skill-title mt-3">Python</p>
-               <div class="skill-bar">
-                  <div class="skill-fill" style="width:75%"></div>
-               </div>
-
-               <p class="skill-title mt-3">NumPy</p>
-               <div class="skill-bar">
-                  <div class="skill-fill" style="width:70%"></div>
-               </div>
-
-               <p class="skill-title mt-3">Pandas</p>
-               <div class="skill-bar">
-                  <div class="skill-fill" style="width:75%"></div>
-               </div>
-
-               <p class="skill-title mt-3">Matplotlib</p>
-               <div class="skill-bar">
-                  <div class="skill-fill" style="width:65%"></div>
-               </div>
-
-               <p class="skill-title mt-3">Seaborn</p>
-               <div class="skill-bar">
-                  <div class="skill-fill" style="width:60%"></div>
-               </div>
-
-               <p class="skill-title mt-3">Problem Solving</p>
-         <div class="skill-bar">
-         <div class="skill-fill" style="width:85%"></div>
-         </div>
-
-               </div>
-
-               <!-- RIGHT COLUMN -->
-               <div class="col-md-6">
-
-               <p class="skill-title">JavaScript (Vanilla)</p>
-               <div class="skill-bar">
-                  <div class="skill-fill" style="width:70%"></div>
-               </div>
-
-               <p class="skill-title mt-3">API Handling (REST APIs)</p>
-               <div class="skill-bar">
-                  <div class="skill-fill" style="width:72%"></div>
-               </div>
-
-               <p class="skill-title mt-3">Git & GitHub</p>
-               <div class="skill-bar">
-                  <div class="skill-fill" style="width:80%"></div>
-               </div>
-
-               <p class="skill-title mt-3">Linux</p>
-               <div class="skill-bar">
-                  <div class="skill-fill" style="width:68%"></div>
-               </div>
-
-               <p class="skill-title mt-3">Operating Systems</p>
-               <div class="skill-bar">
-                  <div class="skill-fill" style="width:85%"></div>
-               </div>
-
-               <p class="skill-title mt-3">Computer Networks</p>
-               <div class="skill-bar">
-                  <div class="skill-fill" style="width:75%"></div>
-               </div>
-
-               <p class="skill-title mt-3">Database Management Systems</p>
-               <div class="skill-bar">
-                  <div class="skill-fill" style="width:80%"></div>
-               </div>
-
-               <p class="skill-title mt-3">Databases: SQL, MySQL, MongoDB</p>
-               <div class="skill-bar">
-                  <div class="skill-fill" style="width:80%"></div>
-               </div>
-
-               <p class="skill-title mt-3">HTML, CSS, Bootstrap</p>
-               <div class="skill-bar">
-                  <div class="skill-fill" style="width:78%"></div>
-               </div>
-
-               </div>
-
-            </div>
-         </div>
-      </section>
-      <!-- Skill Section Ends Here -->
-
-      <!-- Achievements & Certifications Section -->
-      <section id="achievements" class="py-5" style="background-color: #f4f5f7;">
-         <div class="container">
-            <!-- Section Heading -->
-            <h2 class="text-uppercase text-center mb-5">
-               Achievements & Certifications
-            </h2>
-            <div class="row">
-               <!-- Card 1 -->
-               <div class="col-md-6 col-lg-4 mb-4">
-                  <div class="achievement-card p-3 h-100">
-                     <div class="achievement-img-wrapper">
-                        <img src="assets/img/certificates/ambassador.jpg"
-                           alt="Microsoft Learn Student Ambassador"
-                           class="achievement-img">
-                     </div>
-                     <h5 class="mt-3">Microsoft Learn Student Ambassador</h5>
-                     <p class="issuer">Microsoft</p>
-                     <p class="description">
-                        Recognized for leading technical communities, organizing events,
-                        and promoting cloud & developer technologies.
-                     </p>
-                  </div>
-               </div>
-               <!-- Card 2 -->
-               <div class="col-md-6 col-lg-4 mb-4">
-                  <div class="achievement-card p-3 h-100">
-                     <div class="achievement-img-wrapper">
-                        <img src="assets/img/certificates/cloud-event.jpg"
-                           alt="Cloud Skills Challenge"
-                           class="achievement-img">
-                     </div>
-                     <h5 class="mt-3">Cloud Skills Challenge Event Host</h5>
-                     <p class="issuer">Microsoft Learn</p>
-                     <p class="description">
-                        Hosted cloud learning events and enabled participants to explore
-                        Azure cloud technologies.
-                     </p>
-                  </div>
-               </div>
-               <!-- Card 3 -->
-               <div class="col-md-6 col-lg-4 mb-4">
-                  <div class="achievement-card p-3 h-100">
-                     <div class="achievement-img-wrapper">
-                        <img src="assets/img/certificates/az900.jpg"
-                           alt="AZ-900"
-                           class="achievement-img">
-                     </div>
-                     <h5 class="mt-3">AZ-900 Azure Fundamentals</h5>
-                     <p class="issuer">Microsoft</p>
-                     <p class="description">
-                        Demonstrates foundational knowledge of cloud concepts, Azure
-                        services, pricing, security, and governance.
-                     </p>
-                  </div>
-               </div>
-               <!-- Card 4 -->
-               <div class="col-md-6 col-lg-4 mb-4">
-                  <div class="achievement-card p-3 h-100">
-                     <div class="achievement-img-wrapper">
-                        <img src="assets/img/certificates/aws-data.jpg"
-                           alt="AWS Data Engineering"
-                           class="achievement-img">
-                     </div>
-                     <h5 class="mt-3">AWS Graduate – Data Engineering</h5>
-                     <p class="issuer">Amazon Web Services</p>
-                     <p class="description">
-                        Learned data pipelines, ETL workflows, storage solutions, and
-                        scalable cloud data architectures.
-                     </p>
-                  </div>
-               </div>
-               <!-- Card 5 -->
-               <div class="col-md-6 col-lg-4 mb-4">
-                  <div class="achievement-card p-3 h-100">
-                     <div class="achievement-img-wrapper">
-                        <img src="assets/img/certificates/aws-ml.jpg"
-                           alt="AWS ML Foundations"
-                           class="achievement-img">
-                     </div>
-                     <h5 class="mt-3">AWS Machine Learning Foundations</h5>
-                     <p class="issuer">Amazon Web Services</p>
-                     <p class="description">
-                        Covers ML concepts, model training basics, and real-world AI
-                        application workflows on AWS.
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- Achievements & Certifications Section Ends Here-->
-
-      <!-- Contact Section -->
-      <section id="contact" class="contact-section py-4" style="background-color:#ffffff;">
-         <div class="container">
-            <h2 class="text-center text-uppercase mb-5">Contact Me</h2>
-            <!-- Info Cards -->
-            <div class="row justify-content-center mb-5">
-               <!-- Phone Section-->
-               <div class="col-md-4 mb-3">
-                  <a href="https://shorturl.at/kWLs5" target="_blank" class="project-link">
-                     <div class="contact-card d-flex align-items-center p-3 bg-white rounded shadow-sm">
-                        <img src="assets/img/LinkdIn.svg" alt="LinkedIn Icon" class="contact-icon me-3">
-                        <div>
-                           <h5 class="fw-bold mb-1">Visit My LinkedIn</h5>
-                           <p class="text-muted mb-0"></p>
-                        </div>
-                     </div>
-                  </a>
-               </div>
-               <!-- Mail Section -->
-               <div class="col-md-4 mb-3">
-                  <a href="mailto:nishant05gaurav@gmail.com" target="_blank" class="project-link">
-                     <div class="contact-card d-flex align-items-center p-3 bg-white rounded shadow-sm">
-                        <img src="assets/img/e-mail.svg" alt="Email Icon" class="contact-icon me-3">
-                        <div>
-                           <h5 class="fw-bold mb-1">Visit For Enquiry</h5>
-                           <p class="text-muted mb-0"></p>
-                        </div>
-                     </div>
-                  </a>
-               </div>
-               <!-- Address Section -->
-               <div class="col-md-4 mb-3">
-                  <a href="https://shorturl.at/XgXoJ#" target="_blank" class="project-link">
-                     <div class="contact-card d-flex align-items-center p-3 bg-white rounded shadow-sm">
-                        <img src="assets/img/git-hub.svg" alt="Location Icon" class="contact-icon me-3">
-                        <div>
-                           <h5 class="fw-bold mb-1">Visit My GitHub</h5>
-                           <p class="text-muted mb-0"></p>
-                        </div>
-                     </div>
-               </div>
-            </div>
-         </div>
-         <!-- Contact Form -->
-         <div class="row justify-content-center">
-         <div class="col-md-8 col-lg-6">
-         <div class="bg-white rounded shadow-sm p-3">
-         <h5 class="fw-bold mb-2 text-center ">Contact Form</h5>
-         <form>
-         <div class="form-group mb-3">
-         <label for="name">Name</label>
-         <input type="text" id="name" class="form-control" placeholder="Your Name" required>
-         </div>
-         <div class="form-group mb-3">
-         <label for="email">Email</label>
-         <input type="email" id="email" class="form-control" placeholder="Your Email" required>
-         </div>
-         <div class="form-group mb-3">
-         <label for="message">Message</label>
-         <textarea id="message" class="form-control" rows="4" placeholder="Write your message..."
-            required></textarea>
-         </div>
-         <button type="submit" class="btn btn-primary btn-block">Send Message</button>
-         </form>
-         </div>
-         </div>
-         </div>
-         </div>
-      </section>
-      <!-- Contact Section Ends -->
-
-      <!-- Footer Starts -->
-      <div class="text-center">
-      <div class="card custom-footer">
-      <div class="card-body">
-      <p class="card-title">&copy; 2026 Nishant Gaurav | All rights reserved.</p>
-      <nav class="navbar navbar-expand-lg navbar-light ">
-      <div class="container-fluid d-flex justify-content-between align-items-center">
-      <a class="navbar-brand d-flex align-items-center" href="#">
-      <img src="./assets/img/logo_secondary.png" alt="Logo" class="footer-icon-logo">
-      </a>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav d-flex flex-row gap-1 mb-0">
-      <li class="nav-item">
-      <a class="nav-link p-0" href="https://github.com/nishant05gaurav" target="_blank">
-      <img src="./assets/img/git-hub.svg" alt="GitHub" class="footer-icon">
-      </a>
-      </li>
-      <li class="nav-item">
-      <a class="nav-link p-0" href="https://x.com/_im_nishant14" target="_blank">
-      <img src="./assets/img/ttwitter.svg" alt="Twitter" class="footer-icon">
-      </a>
-      </li>
-      <li class="nav-item">
-      <a class="nav-link p-0" href="mailto:nishant05gaurav@gmail.com" target="_blank">
-      <img src="./assets/img/e-mail.svg" alt="Gmail" class="footer-icon">
-      </a>
-      </li>
-      <li class="nav-item">
-      <a class="nav-link p-0" href="https://shorturl.at/kWLs5" target="_blank">
-      <img src="./assets/img/LinkdIn.svg" alt="LinkedIn" class="footer-icon">
-      </a>
-      </li>
-      </ul>
-      </div>
-      </div>
+            <label
+              class="theme-switch ms-lg-3 mt-3 mt-lg-0"
+              aria-label="Toggle light and dark mode"
+            >
+              <input type="checkbox" id="themeToggleBtn" checked />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
       </nav>
+    </header>
+
+    <main id="home">
+      <!-- HERO -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <div class="eyebrow">01 / ABOUT ME</div>
+
+              <!-- Logo + Cat GIF -->
+              <div class="hero-brand">
+                <h1>log(<span>Nishant</span>)</h1>
+
+                <img
+                  src="./assets/img/cat.gif"
+                  alt="Nishant's coding companion"
+                  class="cat-gif"
+                />
+              </div>
+
+              <h2>
+                Software Engineer · Python <br />
+                & Backend Developer · APIs · Data
+              </h2>
+
+              <p class="hero-lead">
+                I build practical software with Python, APIs, databases, and web
+                technologies, while developing my skills in DSA, data, and core
+                computer science. I enjoy understanding how things work and
+                turning what I learn into real projects.
+              </p>
+
+              <div class="hero-actions">
+                <a class="btn btn-accent" href="#projects"> Explore My Work </a>
+
+                <a class="btn btn-outline-theme" href="#articles">
+                  Read My Writing <span>↗</span>
+                </a>
+              </div>
+
+              <div class="social-row" aria-label="Social links">
+                <a
+                  href="https://github.com/nishant05gaurav"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="GitHub"
+                  >GH</a
+                >
+
+                <a
+                  href="https://shorturl.at/kWLs5"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="LinkedIn"
+                  >in</a
+                >
+
+                <a href="mailto:nishant05gaurav@gmail.com" aria-label="Email"
+                  >@</a
+                >
+
+                <a
+                  href="https://x.com/_im_nishant14"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="X"
+                  >𝕏</a
+                >
+              </div>
+            </div>
+
+            <div class="hero-visual">
+              <div class="image-frame">
+                <img
+                  src="./assets/img/profile_photo.jpeg"
+                  alt="Nishant Gaurav"
+                  class="hero-photo"
+                />
+              </div>
+
+              <div class="terminal-card">
+                <div class="terminal-top">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+
+                <p><span class="terminal-green">Nishant@dev</span>:~$</p>
+
+                <p class="terminal-command">whoami</p>
+
+                <p class="terminal-muted">building · learning · documenting</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT / WHO I AM -->
+      <section id="about" class="section-block">
+        <div class="container">
+          <div class="section-heading">
+            <span>02.</span>
+            <h2>Who I Am</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-text">
+              <div class="about-kicker">$ whoami</div>
+              <h3>Hi, I'm Nishant Gaurav.</h3>
+
+              <p>
+                I’m a
+                <strong
+                  >Computer Science Engineer specializing in Data
+                  Science</strong
+                >
+                who enjoys building software, solving problems, and
+                understanding how technology works behind the code. I like
+                moving between different parts of development — from writing
+                algorithms and backend logic to working with APIs, databases,
+                data and automation.
+              </p>
+
+              <p>
+                My foundation is built around
+                <strong
+                  >Python, C++, Data Structures & Algorithms, OOP, DBMS,
+                  Operating Systems, Computer Networks and Linux</strong
+                >. Alongside these fundamentals, I work with
+                <strong
+                  >SQL, PostgreSQL, MySQL, Flask, REST APIs, Git and
+                  GitHub</strong
+                >, with hands-on experience in
+                <strong
+                  >Pandas, NumPy, Scikit-learn, data analysis and AI-powered
+                  applications</strong
+                >.
+              </p>
+
+              <p>
+                Most of my learning happens by building. Projects like
+                <strong>GhostSpot</strong>, <strong>NOVA</strong>,
+                <strong>recLog</strong>, <strong>Habit Flow Engine</strong> and
+                <strong>Algorithm Analyzer</strong> have helped me explore
+                different sides of software — including backend development,
+                APIs, geospatial data, machine learning, automation, algorithms
+                and application development.
+              </p>
+
+              <p>
+                <strong>log(Nishant)</strong> is another part of that process. I
+                use it to document what I learn, break down concepts and share
+                my problem-solving approach through technical writing. I also
+                publish on platforms such as <strong>DEV</strong> and
+                <strong>Medium</strong>. Writing helps me understand a topic
+                better because explaining something clearly forces me to
+                understand it properly.
+              </p>
+
+              <p>
+                Beyond individual projects, my experience as a
+                <strong>Microsoft Learn Student Ambassador</strong> has given me
+                opportunities to organize technical events, engage with
+                developer communities and help other students learn and build.
+                Right now, I’m focused on becoming a stronger
+                <strong>software engineer</strong> while continuing to grow
+                across
+                <strong
+                  >backend development, data, AI, automation, problem solving
+                  and core computer science</strong
+                >.
+              </p>
+
+              <div class="about-links">
+                <a
+                  class="btn btn-accent"
+                  href="https://github.com/nishant05gaurav"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub ↗</a
+                >
+                <a
+                  class="btn btn-outline-theme"
+                  href="https://shorturl.at/kWLs5"
+                  target="_blank"
+                  rel="noopener"
+                  >LinkedIn ↗</a
+                >
+                <a
+                  class="btn btn-outline-theme"
+                  href="https://drive.google.com/drive/u/0/folders/1Xo3nevFBV423NZTZ6XY7QaaPpDlqcpxF"
+                  target="_blank"
+                  rel="noopener"
+                  >Resume ↗</a
+                >
+              </div>
+            </div>
+
+            <div class="about-side">
+              <div class="stat-grid">
+                <div class="stat-card">
+                  <strong>300+</strong><span>DSA Problems</span>
+                </div>
+                <div class="stat-card">
+                  <strong>6</strong><span>Featured Projects</span>
+                </div>
+                <div class="stat-card">
+                  <strong>3</strong><span>Writing Platforms</span>
+                </div>
+                <div class="stat-card">
+                  <strong>MLSA</strong><span>Community & Events</span>
+                </div>
+              </div>
+
+              <div class="about-note">
+                <span class="note-label">CURRENT FOCUS</span>
+                <p>
+                  DSA · Core CS · Software Engineering · Python · Backend · Data
+                  & AI
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section-block section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <span>03.</span>
+            <h2>Featured Projects</h2>
+            <a
+              class="section-link"
+              href="https://github.com/nishant05gaurav"
+              target="_blank"
+              rel="noopener"
+              >View GitHub ↗</a
+            >
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+              <article class="project-card">
+                <div class="project-visual ghostspot-visual">GhostSpot</div>
+                <div class="project-body">
+                  <h3>GhostSpot</h3>
+                  <p class="project-type">Geospatial Risk Analysis</p>
+                  <p>
+                    Uses spatial and business data to study commercial locations
+                    and predict closure-risk probabilities through a
+                    machine-learning workflow.
+                  </p>
+                  <div class="tag-list">
+                    <span>Python</span>
+                    <span>Flask</span>
+                    <span>PostgreSQL</span>
+                    <span>PostGIS</span>
+                    <span>scikit-learn</span>
+                    <span>Pandas</span>
+                    <span>Leaflet.js</span>
+                    <span>REST API</span>
+                  </div>
+                  <a
+                    href="https://github.com/nishant05gaurav/GhostSpot"
+                    target="_blank"
+                    rel="noopener"
+                    class="card-link"
+                    >GitHub ↗</a
+                  >
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <article class="project-card">
+                <div class="project-visual nova-visual">NOVA</div>
+                <div class="project-body">
+                  <h3>NOVA AI Assistant</h3>
+                  <p class="project-type">AI Assistant</p>
+                  <p>
+                    A Python-based assistant exploring speech recognition, AI
+                    responses, external APIs and text-to-speech workflows.
+                  </p>
+                  <div class="tag-list">
+                    <span>Python</span>
+                    <span>Gemini API</span>
+                    <span>SpeechRecognition</span>
+                    <span>PyAudio</span>
+                    <span>pyttsx3</span>
+                    <span>Google Calendar API</span>
+                    <span>OAuth 2.0</span>
+                    <span>REST APIs</span>
+                  </div>
+                  <a
+                    href="https://github.com/nishant05gaurav/Nova-Assistant"
+                    target="_blank"
+                    rel="noopener"
+                    class="card-link"
+                    >GitHub ↗</a
+                  >
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <article class="project-card">
+                <div class="project-visual reclog-visual">recLog</div>
+                <div class="project-body">
+                  <h3>recLog</h3>
+                  <p class="project-type">Automated Content Sync</p>
+                  <p>
+                    Automates the flow of technical writing between a Dev.to
+                    publishing workflow and a personal portfolio using Python
+                    and GitHub Actions.
+                  </p>
+                  <div class="tag-list">
+                    <span>Python</span>
+                    <span>API</span>
+                    <span>Requests</span>
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>GitHub Actions</span>
+                    <span>Automation</span>
+                    <span>CI/CD</span>
+                  </div>
+                  <a
+                    href="https://github.com/nishant05gaurav/recLog"
+                    target="_blank"
+                    rel="noopener"
+                    class="card-link"
+                    >GitHub ↗</a
+                  >
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <article class="project-card">
+                <div class="project-visual habit-visual">HFE</div>
+                <div class="project-body">
+                  <h3>Habit Flow Engine</h3>
+                  <p class="project-type">Productivity Project</p>
+                  <p>
+                    A personal software project focused on turning
+                    habit-building ideas into a structured, trackable workflow.
+                  </p>
+                  <div class="tag-list">
+                    <div class="project-tags">
+                      <span>Python</span>
+                      <span>NumPy</span>
+                      <span>pytests</span>
+                      <span>CSV</span>
+                      <span>Jupyter</span>
+                      <span>Data Processing</span>
+                      <span>Simulation</span>
+                    </div>
+                  </div>
+                  <a
+                    href="https://github.com/nishant05gaurav/Habit-Flow-Engine"
+                    target="_blank"
+                    rel="noopener"
+                    class="card-link"
+                    >GitHub ↗</a
+                  >
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <article class="project-card">
+                <div class="project-visual algo-visual">A↔Z</div>
+                <div class="project-body">
+                  <h3>Algorithm Analyzer</h3>
+                  <p class="project-type">Python / Algorithms</p>
+                  <p>
+                    A Python project built around analysing algorithmic
+                    behaviour and making problem-solving concepts easier to
+                    inspect and understand.
+                  </p>
+                  <div class="tag-list">
+                    <div class="project-tags">
+                      <span>Python</span>
+                      <span>Algorithms</span>
+                      <span>Data Structures</span>
+                      <span>Complexity Analysis</span>
+                      <span>Algorithm Analysis</span>
+                      <span>Matplotlib</span>
+                    </div>
+                  </div>
+                  <a
+                    href="https://github.com/nishant05gaurav/Algorithm-Analyzer"
+                    target="_blank"
+                    rel="noopener"
+                    class="card-link"
+                    >GitHub ↗</a
+                  >
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <article class="project-card">
+                <div class="project-visual portfolio-visual">log()</div>
+                <div class="project-body">
+                  <h3>Portfolio Website</h3>
+                  <p class="project-type">HTML / CSS / JavaScript</p>
+                  <p>
+                    The personal portfolio you're viewing — designed to present
+                    my projects, technical skills, writing, certifications and
+                    the work behind them.
+                  </p>
+                  <div class="tag-list">
+                    <div class="project-tags">
+                      <span>HTML</span>
+                      <span>CSS</span>
+                      <span>JavaScript</span>
+                      <span>Bootstrap</span>
+                      <span>DOM</span>
+                    </div>
+                  </div>
+                  <a
+                    href="https://github.com/nishant05gaurav/nishant05gaurav.github.io"
+                    target="_blank"
+                    rel="noopener"
+                    class="card-link"
+                    >GitHub ↗</a
+                  >
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section-block">
+        <div class="container">
+          <div class="section-heading">
+            <span>04.</span>
+            <h2>Technical Skills</h2>
+          </div>
+
+          <div class="skill-groups">
+            <div class="skill-group">
+              <h3>Languages</h3>
+              <div class="chip-row">
+                <span>C</span>
+                <span>C++</span>
+                <span>Python</span>
+                <span>SQL</span>
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Backend & APIs</h3>
+              <div class="chip-row">
+                <span>Flask</span>
+                <span>REST APIs</span>
+                <span>PostgreSQL</span>
+                <span>PostGIS</span>
+                <span>MySQL</span>
+                <span>MongoDB</span>
+                <span>JSON</span>
+                <span>API Integration</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Data & AI</h3>
+              <div class="chip-row">
+                <span>NumPy</span>
+                <span>Pandas</span>
+                <span>Matplotlib</span>
+                <span>Seaborn</span>
+                <span>scikit-learn</span>
+                <span>Data Analysis</span>
+                <span>Machine Learning</span>
+                <span>Gemini API</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Systems & Tools</h3>
+              <div class="chip-row">
+                <span>Linux</span>
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>GitHub Actions</span>
+                <span>Docker</span>
+                <span>AWS</span>
+                <span>Azure</span>
+                <span>Bootstrap</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Core CS</h3>
+              <div class="chip-row">
+                <span>Data Structures & Algorithms</span>
+                <span>OOP</span>
+                <span>DBMS</span>
+                <span>Operating Systems</span>
+                <span>Computer Networks</span>
+                <span>Problem Solving</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ARTICLES -->
+      <section id="articles" class="section-block section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <span>05.</span>
+            <h2>Latest Articles</h2>
+            <div class="heading-actions">
+              <a class="section-link" href="#" data-link="dev">DEV ↗</a>
+              <a class="section-link" href="#" data-link="medium">Medium ↗</a>
+            </div>
+          </div>
+
+          <div class="articles-grid">
+            <article class="article-card">
+              <div class="article-icon">01</div>
+              <div>
+                <span class="article-source dev">DEV</span>
+                <h3>How I Built My Portfolio Website From Scratch</h3>
+                <p>
+                  A practical walkthrough of semantic HTML, Bootstrap,
+                  responsive design, dark/light mode, project cards and
+                  deployment.
+                </p>
+                <a href="#" data-article-link="portfolio">Read article ↗</a>
+              </div>
+            </article>
+
+            <article class="article-card">
+              <div class="article-icon">02</div>
+              <div>
+                <span class="article-source">DSA</span>
+                <h3>Matrix Chain Multiplication: A New DP Pattern</h3>
+                <p>
+                  Learning to recognize the MCM skeleton and reuse the same
+                  interval-DP reasoning for related problems.
+                </p>
+                <a href="#" data-article-link="mcm">Read article ↗</a>
+              </div>
+            </article>
+
+            <article class="article-card">
+              <div class="article-icon">03</div>
+              <div>
+                <span class="article-source">DSA</span>
+                <h3>Palindrome Partitioning: The MCM Skeleton</h3>
+                <p>
+                  Breaking an interval problem into left and right partitions,
+                  then turning the recurrence into memoized DP.
+                </p>
+                <a href="#" data-article-link="palindrome">Read article ↗</a>
+              </div>
+            </article>
+
+            <article class="article-card">
+              <div class="article-icon">04</div>
+              <div>
+                <span class="article-source">DSA</span>
+                <h3>
+                  Boolean Parenthesization: Counting Instead of Minimising
+                </h3>
+                <p>
+                  How the MCM structure changes when the task becomes counting
+                  valid boolean evaluations.
+                </p>
+                <a href="#" data-article-link="boolean">Read article ↗</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="writing-banner">
+            <div>
+              <span class="eyebrow">LOG(NISHANT)</span>
+              <h3>Notes on code, systems, learning and building.</h3>
+            </div>
+            <a
+              href="https://nishant05gaurav.github.io/recLog/"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-accent"
+              >Visit log(Nishant) ↗</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- ACHIEVEMENTS -->
+      <section id="achievements" class="section-block">
+        <div class="container">
+          <div class="section-heading">
+            <span>06.</span>
+            <h2>Achievements & Certifications</h2>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+              <article class="achievement-card">
+                <img
+                  src="assets/img/certificates/ambassador.jpg"
+                  alt="Microsoft Learn Student Ambassador certificate"
+                />
+                <div>
+                  <h3>Microsoft Learn Student Ambassador</h3>
+                  <p>Microsoft</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="achievement-card">
+                <img
+                  src="assets/img/certificates/cloud-event.jpg"
+                  alt="Cloud Skills Challenge Event Host certificate"
+                />
+                <div>
+                  <h3>Cloud Skills Challenge Event Host</h3>
+                  <p>Microsoft Learn</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="achievement-card">
+                <img
+                  src="assets/img/certificates/az900.jpg"
+                  alt="AZ-900 Azure Fundamentals certificate"
+                />
+                <div>
+                  <h3>AZ-900 Azure Fundamentals</h3>
+                  <p>Microsoft</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="achievement-card">
+                <img
+                  src="assets/img/certificates/aws-data.jpg"
+                  alt="AWS Data Engineering certificate"
+                />
+                <div>
+                  <h3>AWS Graduate — Data Engineering</h3>
+                  <p>Amazon Web Services</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="achievement-card">
+                <img
+                  src="assets/img/certificates/aws-ml.jpg"
+                  alt="AWS Machine Learning Foundations certificate"
+                />
+                <div>
+                  <h3>AWS Machine Learning Foundations</h3>
+                  <p>Amazon Web Services</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section-block section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <span>07.</span>
+            <h2>Let's Connect</h2>
+          </div>
+
+          <div class="contact-grid">
+            <a
+              class="contact-card"
+              href="https://shorturl.at/kWLs5"
+              target="_blank"
+              rel="noopener"
+            >
+              <strong>in</strong>
+              <div><b>LinkedIn</b><small>Let's connect</small></div>
+            </a>
+            <a class="contact-card" href="mailto:nishant05gaurav@gmail.com">
+              <strong>@</strong>
+              <div><b>Email</b><small>Drop a message</small></div>
+            </a>
+            <a
+              class="contact-card"
+              href="https://github.com/nishant05gaurav"
+              target="_blank"
+              rel="noopener"
+            >
+              <strong>GH</strong>
+              <div><b>GitHub</b><small>Check my work</small></div>
+            </a>
+            <a
+              class="contact-card"
+              href="https://nishant05gaurav.github.io/"
+              target="_blank"
+              rel="noopener"
+            >
+              <strong>ln</strong>
+              <div><b>log(Nishant)</b><small>Read my thoughts</small></div>
+            </a>
+          </div>
+
+          <div class="contact-form-wrap">
+            <h3>Send a message</h3>
+            <form id="contactForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="name">Name</label
+                  ><input
+                    id="name"
+                    type="text"
+                    placeholder="Your name"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="email">Email</label
+                  ><input
+                    id="email"
+                    type="email"
+                    placeholder="Your email"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="message">Message</label
+                  ><textarea
+                    id="message"
+                    rows="5"
+                    placeholder="Write your message..."
+                    required
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-accent w-100" type="submit">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a href="#home"
+          ><img
+            src="./assets/img/logo_secondary.png"
+            alt="Nishant Gaurav"
+            class="footer-logo"
+        /></a>
+        <p>© 2026 Nishant Gaurav · Build quietly, let the effort accumulate, and be ready when the moment arrives.</p>
+
+        <div class="footer-links">
+          <a
+            href="https://github.com/nishant05gaurav"
+            target="_blank"
+            rel="noopener"
+            >GitHub</a
+          >
+          <a href="https://shorturl.at/kWLs5" target="_blank" rel="noopener"
+            >LinkedIn</a
+          >
+          <a href="mailto:nishant05gaurav@gmail.com">Email</a>
+          <a href="#home">↑ Top</a>
+        </div>
       </div>
-      </div>
-      </div>
-      <!-- Footer Ends Here -->
- 
-      <!-- Required JS for Bootstrap -->
-      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-         crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-         crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-         crossorigin="anonymous"></script>
-      <script>
-         const toggleBtn = document.getElementById("themeToggleBtn");
-         const body = document.body;
-         
-         /* Load saved theme */
-         if (localStorage.getItem("theme") === "dark") {
-           body.classList.add("dark-mode");
-           toggleBtn.checked = true;
-         }
-         
-         /* Toggle */
-         toggleBtn.addEventListener("change", () => {
-         
-           body.classList.toggle("dark-mode");
-         
-           if (body.classList.contains("dark-mode")) {
-             localStorage.setItem("theme", "dark");
-           } else {
-             localStorage.setItem("theme", "light");
-           }
-         
-         });
-      </script>
-   </body>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+  </body>
 </html>
